@@ -1,0 +1,192 @@
+/*Header navbar*/
+@media screen and (max-width: 1540px) {
+    .logo.navbar-brand {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 1090px) {
+    .nav-item .button  {
+        display: none !important;
+    }
+}
+.nav-link.yelow {
+    color: goldenrod;
+}
+.top-nav .nav-item {
+    margin: 0 15px;
+    font-size: 13px!important;
+}
+header > .top-nav {
+    height:45px;
+    position:static;
+    top:0;
+}
+.header-bott {
+    position:fixed;
+    top: -10px;
+    left:0px;
+    width:100%;
+    display: flex;
+    z-index: 1000;
+    background-color: rgba(0,0,0,.6);
+    align-items: center;
+    transition: padding 0.6s ease;
+    margin-top: 10px;
+    border-bottom: 2px solid #31424a ;
+}
+.header-bott.sticky {
+    position: fixed;
+    z-index: 1000;
+    padding:0;
+    height: 60px;
+    background-color: rgba(0,0,0,.8);
+    border-bottom: 3px solid #31424a ;
+}
+.header-bott .container {
+    width: 70%;
+}
+.header-bott.sticky div.logo img {
+    width: 80px;
+    height:auto;
+}
+.header-bott.sticky div.logo {
+    margin: 0;
+}
+.header-bott.sticky .container {
+    margin: 0 auto;
+}
+.header-bott .container {
+    margin: 30px auto;
+}
+.header-bott div.logo img {
+    width: 162px; 
+    margin-right: 30px;
+}
+.header-bott ul {
+    position: relative;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row;
+    align-items: center;
+    width:80%;
+    float: left;
+}
+.header-bott ul li {
+    display: flex;
+    position: relative;
+    list-style: none;
+    margin-right: 5px;
+}
+.header-bott ul li a {
+    padding-top: 3px;
+    position: relative;
+    text-decoration: none;
+    color: #cfd8dc;
+    font-size:18px;
+    transition: padding 0.6s ease;
+}
+.header-bott ul li > a:hover {
+    color: #e53935 !important;
+}
+.header-bott ul li a:hover {
+    color: black;
+}
+.header-bott ul li:last-child {
+    margin-left: 5%;
+}
+.header-bott.sticky ul li:last-child {
+    margin-left: 10%;
+}
+#tutorials {
+    padding: 4px 15px 4px 5px;
+}
+.drop-down-nav {
+    position: absolute;
+    display: none;
+    background-color: black;
+    color: white;
+}
+span.button {
+    float: right;
+}
+.header-bott .btn,.video-button .btn-danger {
+    text-align: center;
+    vertical-align: middle;
+    height: 35px;
+    width: 200px;
+    border-radius:2px;
+    border: 1px solid rgba(255,0,0,0.5);
+    background-color: rgba(255,0,0,0.5) ;
+    transition: all ease 0.6s;
+}
+.header-bott .btn {
+    position: relative;
+    left: 200px;
+}
+.header-bott .btn:hover,.video-button .btn-danger:hover {
+    color: #fff;
+    background-color:red;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px 3px rgba(252,2,2,0.5);
+}
+/*Dropdown*/
+/* Dropdown Button */
+.dropdownbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #455a64;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top:32px;
+    right:0;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 6px 16px !important;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:first-child {
+    margin-top: 5px;
+}
+.dropdown-content a i,.dropdown-content a span {
+    vertical-align: middle;
+    float:right;
+}
+.dropdown-content a:hover {
+    background-color: #90a4ae;
+    color: #fff;
+    transition: background-color 0.6s ease;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover {
+    background-color: #455a64;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #455a64;
+}
+#partner {
+    background-color: #95494c;
+}
+#partner:hover {
+    background-color: #e53935;
+}
+#partner img {
+    height: 28px;
+}

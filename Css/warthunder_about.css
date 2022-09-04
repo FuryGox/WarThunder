@@ -1,0 +1,147 @@
+
+.game_description p {
+    margin-bottom: 20px;
+    font-family: "Roboto",sans-serif !important;
+    font-size: 20px;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+}
+.game .video {
+    margin-top: 100px;
+    justify-content: center;
+    display:flex;
+}
+.game-about .game-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #cfd8dc;
+}
+.game-title::after,.game-title::before {
+    content: "";
+    width: 22px;
+    height: 20px;
+    background: url(../Images/svg_icon/icon-star.svg) no-repeat 0 0;
+    background-size: cover;
+    margin: 0 20px;
+}
+.game-about .game-info-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+.game-info {
+    display: flex;
+    align-items: center;
+    width: 580px;
+    min-height: 110px;
+    margin-bottom: 10px;
+    color: #cfd8dc;
+    font-size: 24px;
+    line-height: 1.2;
+    
+}
+.game-info > img {
+    margin-right: 20px;
+}
+.faq {
+    list-style: none;
+    padding: 0 60px;
+}
+.faq_question_wrapper {
+    margin-bottom: 20px;
+    display: flex;
+    vertical-align: middle;
+}
+.faq_question_wrapper:last-child {
+    justify-content: center;
+}
+.faq_question_wrapper > .btn {
+    background-color: #13191b ;
+    border-color: #7495a1;
+    color: #7495a1;
+    text-decoration: none;
+    width: 70%;
+    
+}
+.faq_question_wrapper img {
+    margin-right: 20px;
+}
+.faq_question {
+    font-size: 24px;
+    line-height: 1.2;
+}
+.faq_question > h4 {
+    color: #7495a1;
+    font-style: italic;
+}
+.faq_question_wrapper a:hover {
+    background-color: #13191b;
+    border-color: #fff;
+    color: #fff;
+}
+.nav.nav-tabs button{
+    border: 1px solid #7495a1;
+    border-radius: 0;
+    width: 30%;
+}
+.nav-tabs button {
+    color: #7495a1;
+    border-radius: 0;
+    text-align: center;
+    font-size: 24px;
+}
+.nav>button:focus, .nav>button:hover {
+    transition: all ease 0.5s;
+    background-color: #13191b !important;
+    border-color: #7495a1 !important;
+    border-top: 1px solid #fff;
+    color: #fff;
+}
+.nav.nav-tabs button:hover {
+    background-color:#13191b;
+}
+.nav.nav-tabs button.active {
+    background-color:#13191b;
+    border-bottom: 1px solid #13191b ;
+    border-bottom-color: transparent;
+}
+.nav.nav-tabs {
+    justify-content:space-between;
+    display: flex;
+    border-bottom: none;
+    width: 90%;
+    margin: 0 auto;
+}
+.nav-tabs>button.active, .nav-tabs>button.active:focus, .nav-tabs>button.active:hover {
+    z-index: 200;
+    background-color:#13191b !important;
+    color: #fff !important;
+    border-radius: 0;
+    border: 1px solid #7495a1 !important;
+    border-bottom: none !important;
+}
+
+.tab-content {
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #7495a1;
+    width: 90%;
+    justify-content: space-between;
+}
+.tab-pane.active {
+    display: flex !important;
+}
+.tab-content .tab-pane div {
+    width: 50% ;
+    margin: 20px 50px ;
+}
+.tab-pane p {
+    font-size: 24px;
+}
+.tab-pane h1 {
+    font-size: 36px;
+}
